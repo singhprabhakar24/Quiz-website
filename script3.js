@@ -1,96 +1,96 @@
 const quizDB = [
     {
-        question: "Q1: Which type of JavaScript language is ___",
+        question: "Q1:  Which of the following is not a valid SQL type?",
 
-        a: "Object-Oriented",
-        b: "Object-Based",
-        c: "Assembly-language",
-        d: "High-level",
-        ans: "ans2"
-    },
-    {
-        question: "Q2:Which one of the following also known as Conditional Expression?",
-        a: "Alternative to if-else",
-        b: "Switch statement",
-        c: "If-then-else statement",
-        d: "immediate if",
-        ans: "ans2"
-    },
-    {
-        question: "Q3: When interpreter encounters an empty statements, what it will do?",
-
-        a: " Shows a warning",
-        b: " Prompts to complete the statement",
-        c: " Throws an error",
-        d: "Ignores the statements",
-        ans: "ans4"
-    },
-    {
-        question: "Q4: The function and  var are known as:",
-
-        a: "Keywords",
-        b: " Data types",
-        c: "Declaration statements",
-        d: "Prototypes",
+        a: "FLOAT",
+        b: "NUMERIC",
+        c: "DECIMAL",
+        d: "CHARACTER",
         ans: "ans3"
     },
-
     {
-        question: "Q5: Which one of the following is the correct way for calling the JavaScript code?",
-
-        a: "Preprocessor",
-        b: "Triggering Event",
-        c: " RMI",
-        d: "Function/Method",
+        question: "Q2:Which of the following is not a DDL command?",
+        a: "TRUNCATE",
+        b: "ALTER",
+        c: "CREATE",
+        d: "UPDATE",
         ans: "ans4"
     },
     {
-        question: "Q6: Which of the following type of a variable is volatile?",
+        question: "Q3: Which of the following are TCL commands?",
 
-        a: " Mutable variable",
-        b: " Dynamic variable",
-        c: " Volatile variable",
-        d: " Immutable variable",
+        a: " COMMIT and ROLLBACK",
+        b: " UPDATE and TRUNCATE",
+        c: " SELECT and INSERT",
+        d: "GRANT and REVOKE",
         ans: "ans1"
     },
     {
-        question: "Q7: Which of the following keywords is used to define a variable in Javascript?",
+        question: "Q4: Which datatype can store unstructured data in a column?",
 
-        a: " var",
-        b: " let",
-        c: " Both a & b",
-        d: " None",
+        a: "CHAR",
+        b: " RAW",
+        c: "NUMERIC",
+        d: "VARCHAR",
+        ans: "ans2"
+    },
+
+    {
+        question: "Q5:Which of the following is not Constraint in SQL?",
+
+        a: "Primary Key",
+        b: "Not Null",
+        c: " Check",
+        d: "Union",
+        ans: "ans4"
+    },
+    {
+        question: "Q6:Which of the following is not a valid aggregate function?",
+
+        a: " COUNT",
+        b: " COMPUTE",
+        c: " SUM",
+        d: "MAX",
+        ans: "ans2"
+    },
+    {
+        question: "Q7: Which data manipulation command is used to combines the records from one or more tables?",
+
+        a: " SELECT",
+        b: " PROJECT",
+        c: " JOIN",
+        d: " PRODUCT",
         ans: "ans3",
         
     },
     {
-        question: "Q8: Which one of the following is the correct way for calling the JavaScript code?",
+        question: "Q8: Which operator is used to compare a value to a specified list of values?",
 
-        a: " Preprocessor",
-        b: " Triggering Event",
-        c: " RMI",
-        d: "Function/Method",
+        a: "ANY",
+        b: " BETWEEN",
+        c: " ALL",
+        d: "IN",
         ans: "ans4",
         
     },
     {
-        question: "Q9: Which of the following option is used as hexadecimal literal beginning?",
+        question: "Q9: What operator tests column for absence of data?",
 
-        a: " 00",
-        b: " 0x",
-        c: " 0X",
-        d: " Both 0x and 0X",
-        ans: "ans4",
-        
-    },
-    {
-        question: "Q10: When there is an indefinite or an infinite value during an arithmetic computation in a program, then JavaScript prints______.?",
-
-        a: " Prints an exception error",
-        b: " Prints an overflow error",
-        c: " Displays Infinity",
-        d: " Prints the value as such",
+        a: " NOT Operator",
+        b: " Exists Operator",
+        c: " IS NULL Operator",
+        d: " None of the above",
         ans: "ans3",
+        
+    },
+    {
+        question: "Q10: In which of the following cases a DML statement is not executed?",
+
+        a: " When existing rows are modified.",
+        b: " When a table is deleted.",
+        c: " When some rows are deleted.",
+        d: " All of the above",
+        ans: "ans2",
         
     }
 ];

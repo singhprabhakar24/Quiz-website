@@ -1,96 +1,96 @@
 const quizDB = [
     {
-        question: "Q1: Which type of JavaScript language is ___",
+        question: "Q1:How can we describe an array in the best possible way? ",
 
-        a: "Object-Oriented",
-        b: "Object-Based",
-        c: "Assembly-language",
-        d: "High-level",
-        ans: "ans2"
+        a: "The Array shows a hierarchical structure.",
+        b: "Arrays are immutable.",
+        c: "Container that stores the elements of similar types",
+        d: "The Array is not a data structure",
+        ans: "ans3"
     },
     {
-        question: "Q2:Which one of the following also known as Conditional Expression?",
-        a: "Alternative to if-else",
-        b: "Switch statement",
-        c: "If-then-else statement",
-        d: "immediate if",
-        ans: "ans2"
+        question: "Q2:Which of the following is the correct way of declaring an array?",
+        a: "int javatpoint[10];",
+        b: "int javatpoint;",
+        c: "javatpoint{20};",
+        d: "array javatpoint[10];",
+        ans: "ans1"
     },
     {
-        question: "Q3: When interpreter encounters an empty statements, what it will do?",
+        question: "Q3: How can we initialize an array in C language?",
 
-        a: " Shows a warning",
-        b: " Prompts to complete the statement",
-        c: " Throws an error",
-        d: "Ignores the statements",
-        ans: "ans4"
+        a: " int arr[2]=(10, 20)",
+        b: " int arr(2)={10, 20}",
+        c: " int arr[2] = {10, 20}",
+        d: "int arr(2) = (10, 20)",
+        ans: "ans3"
     },
     {
-        question: "Q4: The function and  var are known as:",
+        question: "Q4: Which of the following highly uses the concept of an array?",
 
-        a: "Keywords",
-        b: " Data types",
-        c: "Declaration statements",
-        d: "Prototypes",
+        a: "Binary Search tree",
+        b: "Caching",
+        c: "Spatial locality",
+        d: "Scheduling of Processes",
         ans: "ans3"
     },
 
     {
-        question: "Q5: Which one of the following is the correct way for calling the JavaScript code?",
+        question: "Q5:  Which one of the following is the size of int arr[9] assuming that int is of 4 bytes?",
 
-        a: "Preprocessor",
-        b: "Triggering Event",
-        c: " RMI",
-        d: "Function/Method",
-        ans: "ans4"
+        a: "9",
+        b: "36",
+        c: " 35",
+        d: "None",
+        ans: "ans2"
     },
     {
-        question: "Q6: Which of the following type of a variable is volatile?",
+        question: "Q6:Which one of the following is the process of inserting an element in the stack?",
 
-        a: " Mutable variable",
-        b: " Dynamic variable",
-        c: " Volatile variable",
-        d: " Immutable variable",
-        ans: "ans1"
-    },
-    {
-        question: "Q7: Which of the following keywords is used to define a variable in Javascript?",
-
-        a: " var",
-        b: " let",
-        c: " Both a & b",
+        a: " Insert",
+        b: " Add",
+        c: "Push",
         d: " None",
-        ans: "ans3",
+        ans: "ans3"
+    },
+    {
+        question: "Q7: When the user tries to delete the element from the empty stack then the condition is said to be a ____",
+
+        a: " Underflow",
+        b: " Garbage collection",
+        c: " Overflow",
+        d: " None",
+        ans: "ans1",
         
     },
     {
-        question: "Q8: Which one of the following is the correct way for calling the JavaScript code?",
+        question: "Q8: Which one of the following is not the application of the stack data structure",
 
-        a: " Preprocessor",
-        b: " Triggering Event",
-        c: " RMI",
-        d: "Function/Method",
+        a: " String reversal",
+        b: " Recursion",
+        c: " Backtracking",
+        d: " Asynchronous data transfer",
         ans: "ans4",
         
     },
     {
-        question: "Q9: Which of the following option is used as hexadecimal literal beginning?",
+        question: "Q9:Which data structure is required to convert the infix to prefix notation?",
 
-        a: " 00",
-        b: " 0x",
-        c: " 0X",
-        d: " Both 0x and 0X",
-        ans: "ans4",
+        a: " Stack",
+        b: " Linked list",
+        c: " Binary tree",
+        d: " None",
+        ans: "ans1",
         
     },
     {
-        question: "Q10: When there is an indefinite or an infinite value during an arithmetic computation in a program, then JavaScript prints______.?",
+        question: "Q10:Which of the following is the infix expression?",
 
-        a: " Prints an exception error",
-        b: " Prints an overflow error",
-        c: " Displays Infinity",
-        d: " Prints the value as such",
-        ans: "ans3",
+        a: " A+B*C",
+        b: " +A*BC",
+        c: " ABC+*",
+        d: " None",
+        ans: "ans1",
         
     }
 ];

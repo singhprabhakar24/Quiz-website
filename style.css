@@ -72,3 +72,49 @@ h3{
 #showscore .btn:hover{
     background-color: rgb(247, 235, 235);
 }
+
+
+
+/* second work */
+
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    color: blueviolet;
+}
+
+
+.subject {
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    color: red;
+    border-radius: 5px;
+    
+}
+.subject .same{
+    font-size: 30px;
+    background-color: burlywood;
+    color: red;
+    border-radius: 4px;
+    width: 200px;
+    border-color: burlywood;
+    
+}
+
+ .subject .same:hover{
+    text-decoration: none;
+    background-color: rgb(241, 241, 8);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 33px;
+
+}
+
+
+
+
+
+
